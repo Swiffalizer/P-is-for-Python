@@ -1,0 +1,9 @@
+import turtle 
+turtle.bgcolor('black')
+t = turtle.Turtle()
+colors = ["red", "dark red","pink","orange"]
+for number in range(400):
+    t.forward(number+1)
+    t.right(87)
+    t.pencolor(colors[number%4])
+turtle.done()
